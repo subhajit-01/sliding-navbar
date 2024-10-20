@@ -1,8 +1,5 @@
 
-@font-face {
-  font-family: dark;
-  src: url(/ae6c671414b9cb4b6889.woff2);
-}
+
 *{
   margin: 0;
   padding: 0;
@@ -10,7 +7,7 @@
 
 }
 body {
-  font-family:dark;
+  font-family:sans-serif;
   overflow-x: hidden;
 }
 .header{
@@ -24,7 +21,7 @@ body {
 
 .logo h1{
   z-index: 9;
-  font-size: 60px;
+  font-size: 40px;
   text-transform: uppercase;
   font-weight: 900;
   color: #FF5745;
@@ -44,19 +41,19 @@ body {
 }
 
 .another-info p{
-  font-size: 37px;
+  font-size: 27px;
   color: #FF5745;
   text-transform: uppercase;
   font-weight: 800;
 }
 
 .another-info button{
-  padding: 7px 20px;
+  padding: 7px 15px;
   text-transform: capitalize;
   font-weight: 540;
   border: 1px solid black;
   background-color: transparent;
-  font-size: 16px;
+  font-size: 15px;
   border-radius: 20px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
@@ -69,7 +66,7 @@ body {
   text-transform: uppercase;
 }
 .another-info i{
-  font-size: 40.3px;
+  font-size: 30.3px;
   cursor: pointer;
 }
 .nav-section{

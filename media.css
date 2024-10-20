@@ -10,4 +10,15 @@
     .nav-links{
         margin-top: 50px;
       }
+      .logo-2 h1{
+        
+        font-size: 40px;
+      
+      }
+      .nav-links li a{
+        
+        font-size: 36px;
+      
+        
+      }
 }
