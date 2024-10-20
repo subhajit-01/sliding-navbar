@@ -1,0 +1,129 @@
+
+@font-face {
+  font-family: dark;
+  src: url(/ae6c671414b9cb4b6889.woff);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body {
+  font-family:dark;
+  overflow-x: hidden;
+}
+.header{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+
+.logo h1{
+  z-index: 9;
+  font-size: 60px;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #FF5745;
+  letter-spacing: 1px;
+}
+.logo span{
+  background-color: transparent;
+  color: transparent;
+   -webkit-text-stroke: 1px #FF5745;
+}
+
+.another-info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+}
+
+.another-info p{
+  font-size: 37px;
+  color: #FF5745;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.another-info button{
+  padding: 7px 20px;
+  text-transform: capitalize;
+  font-weight: 540;
+  border: 1px solid black;
+  background-color: transparent;
+  font-size: 16px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  cursor: pointer;
+}
+
+.another-info  span{
+  text-transform: uppercase;
+}
+.another-info i{
+  font-size: 40.3px;
+  cursor: pointer;
+}
+.nav-section{
+ 
+  position: absolute;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #FF5745;
+ 
+}
+.nav-header{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+
+.logo-2 h1{
+  z-index: 9;
+  font-size: 60px;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #fbfafa;
+  letter-spacing: 1px;
+}
+.logo-2 span{
+  background-color: transparent;
+  color: transparent;
+   -webkit-text-stroke: 1px #f3efef;
+}
+.nav-header i{
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+
+.nav-links{
+  text-align: center;
+}
+.nav-links ul{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+.nav-links li a{
+  text-decoration: none;
+  font-size: 56px;
+  color: white;
+  font-weight: 100 ;
+  
+}

@@ -1,0 +1,13 @@
+@media (max-width:780px) {
+    .another-info p,
+    .another-info button,
+    .another-info button span {
+      display: none;
+    }
+    .another-info i{
+        display: inline;
+    }
+    .nav-links{
+        margin-top: 50px;
+      }
+}
